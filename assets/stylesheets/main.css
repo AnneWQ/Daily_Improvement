@@ -60,9 +60,13 @@ Grid
 }
 
 .container{
-    width: 960px;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.container,
+.grid{
+    width: 960px;
     margin: 0 auto;
 }
 
