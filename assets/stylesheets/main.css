@@ -78,17 +78,27 @@ h1, h3, h4, h5, p{
     border-radius: 5px;
     display: inline-block;
     margin: 0;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: 400;
 }
 
 .btn-alt{
-    border: 1px solid gray;
+    border: 1px solid #fff;
     padding: 10px 30px;
+}
+.btn-alt{
+    background:  #fff;
+    color: #648880;
 }
 
 .hero{
     padding: 22px 80px 66px 80px;
     line-height: 44px;
     text-align: center;
+    color: #fff;
 }
 .hero h2{
     font-size: 36px;
@@ -99,7 +109,7 @@ h1, h3, h4, h5, p{
 }
 
 /*
-clsarfix
+clearfix
 */
 .group:before,
 .group:after{
@@ -115,6 +125,27 @@ clsarfix
     *zoom: 1;
 }
 
+/*
+=====================
+rows
+=====================
+*/
+.row{
+    background: #fff;
+    padding:66px 0 44px 0;
+}
+.row-alt,
+.row{
+    min-width: 960px;
+}
+
+.row-alt{
+    background: #cbe2c1;
+    background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+    background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+    padding: 44px 0 22px 0;
+}
 /*
 primary header
 */
@@ -176,6 +207,7 @@ custom style
 body{
     color: #888;
     font:300 16px/22px "Lato","Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #293f50;
 }
 
 h1,h2,h3,h4{
@@ -250,4 +282,30 @@ Navigation
 */
 .nav{
     text-align: right;
+}
+
+
+.primary-header a,
+.primary-footer a{
+    color: #fff;
+}
+
+
+.primary-header a:hover,
+.primary-footer a:hover{
+    color: #648880;
+}
+
+/*
+===================
+lead
+===================
+*/
+
+.lead{
+    text-align: center;
+}
+.lead p{
+    font-size: 21px;
+    line-height: 33px;
 }
