@@ -181,19 +181,19 @@ primary footer
 .col-1-3{
     width: 33.33%;
 }
-.col-1-2{
+.col-2-3{
     width:66.66%;
 }
 
 .col-1-3,
-.col-1-2{
+.col-2-3{
     display: inline-block;
     vertical-align: top;
 }
 
 .grid,
 .col-1-3,
-.col-1-2{
+.col-2-3{
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -308,4 +308,30 @@ lead
 .lead p{
     font-size: 21px;
     line-height: 33px;
+}
+
+.nav li{
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+}
+.nav li:last-child{
+    margin-right: 0;
+}
+
+/*
+==================
+speakers
+==================
+*/
+.speaker-info{
+border: 1px solid #dfe2e5;
+    border-radius: 5px;
+    margin-top: 88px;
+    padding: 22px 0;
+    text-align: center;
+}
+
+.speaker{
+    margin-bottom: 44px;
 }
